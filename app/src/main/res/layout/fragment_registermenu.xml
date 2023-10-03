@@ -21,21 +21,19 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/LoginText"
-            android:layout_width="212dp"
-            android:layout_height="72dp"
-            android:layout_marginTop="16dp"
+            android:id="@+id/AccountSelectionText"
+            android:layout_width="244dp"
+            android:layout_height="142dp"
+            android:layout_marginTop="52dp"
             android:fontFamily="sans-serif-medium"
-            android:text="Please login using your email and password"
+            android:text="Please select an account type"
             android:textAlignment="center"
             android:textColor="#100F0F"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toTopOf="@+id/EmailAdress"
+            android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
-            app:layout_constraintVertical_bias="0.355" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -47,43 +45,31 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/EmailAdress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="36dp"
-            android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="Enter your email address"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="enter your passsword"
-            android:inputType="textPassword"
-            android:text="Enter your password"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+        <Button
+            android:id="@+id/DoctorBtn"
+            android:layout_width="134dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="48dp"
+            android:background="#F88379"
+            android:backgroundTint="#F88379"
+            android:text="Doctor"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="392dp" />
+            app:layout_constraintTop_toBottomOf="@+id/AccountSelectionText" />
 
         <Button
-            android:id="@+id/Login_Userbtn"
-            android:layout_width="109dp"
-            android:layout_height="76dp"
-            android:background="#DE3163"
-            android:backgroundTint="#DE3163"
-            android:text="Login"
+            android:id="@+id/PatientBtn"
+            android:layout_width="135dp"
+            android:layout_height="97dp"
+            android:background="#F88379"
+            android:backgroundTint="#F88379"
+            android:text="Patient"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.456"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="501dp" />
+            app:layout_constraintStart_toEndOf="@+id/DoctorBtn"
+            app:layout_constraintTop_toBottomOf="@+id/AccountSelectionText" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
