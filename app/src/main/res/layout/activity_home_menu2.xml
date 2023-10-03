@@ -20,7 +20,7 @@
             android:layout_height="93dp"
             android:layout_marginStart="216dp"
             android:layout_marginBottom="244dp"
-            android:backgroundTint='#F88379'
+            android:backgroundTint='#e0218a'
             android:text="Sign Up"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -30,7 +30,7 @@
             android:layout_width="139dp"
             android:layout_height="94dp"
             android:layout_marginStart="28dp"
-            android:backgroundTint='#F88379'
+            android:backgroundTint='#e0218a'
             android:text="LOGIN"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,8 +41,8 @@
             android:id="@+id/toolbar"
             android:layout_width="404dp"
             android:layout_height="72dp"
-            android:background="#DE3163"
-            android:backgroundTint="#DE3163"
+            android:background="#e0218a"
+            android:backgroundTint="#e0218a"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             tools:layout_editor_absoluteX="-6dp"

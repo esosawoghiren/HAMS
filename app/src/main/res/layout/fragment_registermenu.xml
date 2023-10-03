@@ -18,7 +18,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:backgroundTint="#e0218a">
 
         <TextView
             android:id="@+id/AccountSelectionText"
@@ -50,8 +51,7 @@
             android:layout_width="134dp"
             android:layout_height="97dp"
             android:layout_marginStart="48dp"
-            android:background="#F88379"
-            android:backgroundTint="#F88379"
+            android:backgroundTint="#e0218a"
             android:text="Doctor"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -62,14 +62,25 @@
             android:id="@+id/PatientBtn"
             android:layout_width="135dp"
             android:layout_height="97dp"
-            android:background="#F88379"
-            android:backgroundTint="#F88379"
+            android:backgroundTint="#e0218a"
             android:text="Patient"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/DoctorBtn"
             app:layout_constraintTop_toBottomOf="@+id/AccountSelectionText" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:background="#e0218a"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
