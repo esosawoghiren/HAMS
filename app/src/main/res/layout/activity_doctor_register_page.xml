@@ -44,93 +44,93 @@
         app:layout_constraintStart_toEndOf="@+id/ReturntoRegister" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/DoctorFirstName"
         android:layout_width="209dp"
         android:layout_height="57dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Enter first name"
         android:inputType="text"
-        android:text="Enter first name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/DoctorLastName"
         android:layout_width="209dp"
         android:layout_height="57dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Enter last name"
         android:inputType="text"
-        android:text="Enter last name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/DoctorFirstName" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/DoctorEmailAddress"
         android:layout_width="209dp"
         android:layout_height="57dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:text="Enter email address"
+        android:hint="Enter email address"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintTop_toBottomOf="@+id/DoctorLastName" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/DoctorPhoneNumber"
         android:layout_width="209dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
         android:ems="10"
+        android:hint="Enter phone number"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        tools:text="Enter phone number" />
+        app:layout_constraintTop_toBottomOf="@+id/DoctorEmailAddress" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/DoctorAddress"
         android:layout_width="209dp"
         android:layout_height="57dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Enter address"
         android:inputType="textPostalAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
-        tools:text="Enter address" />
+        app:layout_constraintTop_toBottomOf="@+id/DoctorPhoneNumber" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/DoctorEmployeeNumber"
         android:layout_width="209dp"
         android:layout_height="57dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:hint="Enter employee number"
         android:inputType="text"
-        android:text="Enter employee number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/DoctorAddress" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/DoctorSpecialty"
         android:layout_width="209dp"
         android:layout_height="57dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:hint="Enter specialty"
         android:inputType="text"
-        android:text="Enter specialty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/DoctorEmployeeNumber" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -142,7 +142,7 @@
         app:layout_constraintBottom_toTopOf="@+id/ReturntoRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+        app:layout_constraintTop_toBottomOf="@+id/DoctorSpecialty"
         app:layout_constraintVertical_bias="0.342" />
 
     <TextView
