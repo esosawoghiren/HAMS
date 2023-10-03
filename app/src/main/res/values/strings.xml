@@ -11,4 +11,6 @@
     <string name="login_failed">"Login failed"</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_doctor_register_page">DoctorRegisterPage</string>
+    <string name="title_activity_patient_register_page">PatientRegisterPage</string>
 </resources>
